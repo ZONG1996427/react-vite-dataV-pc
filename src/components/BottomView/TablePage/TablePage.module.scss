@@ -1,0 +1,12 @@
+.table {
+  :global {
+    .ant-table-thead > tr > th {
+      background-color: transparent !important;
+    }
+  }
+}
+
+// 两种修改antd样式的方式
+//.tablePage :global(.ant-table-thead>tr>th) {
+//  padding: 0 !important;
+//}

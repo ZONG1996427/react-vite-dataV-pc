@@ -1,0 +1,73 @@
+.content {
+  margin-top: 20px;
+}
+
+.content :global(.ant-card-body) {
+  padding: 0 0 20px 20px !important;
+}
+
+.menu-container {
+  position: relative;
+
+  .menu-right {
+    position: absolute;
+    right: 20px;
+    top: 7px;
+
+    .RangePicker {
+      margin-left: 20px;
+      width: 360px;
+    }
+  }
+}
+
+.content-container {
+  display: flex;
+
+  .content-container-left {
+    flex: 1;
+  }
+
+  .content-container-right {
+    width: 360px;
+    height: 270px;
+    margin-right: 20px;
+    overflow: hidden;
+
+    .ranking-list {
+
+      .ranking-item {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+        div:nth-child(1) {
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          color: #333;
+          text-align: center;
+        }
+
+        div:nth-child(2) {
+          margin-left: 10px;
+        }
+
+        div:nth-child(3) {
+          flex: 1;
+          text-align: right;
+
+        }
+      }
+
+      .b-3 {
+        background-color: black;
+        border-radius: 50%;
+        font-weight: 500;
+        color: #fff !important;
+      }
+    }
+
+  }
+}
+

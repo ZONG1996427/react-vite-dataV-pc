@@ -1,0 +1,52 @@
+.bottom-view {
+  margin-top: 20px;
+  display: flex;
+
+  .card {
+    flex: 1;
+    min-height: 528px;
+
+    &:nth-child(1) {
+      margin-right: 10px;
+    }
+
+    &:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .title {
+    height: 46px;
+    line-height: 46px;
+    padding-left: 40px;
+    font-weight: 600;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .left-container {
+    padding: 25px 25px 10px 25px;
+
+    .chart-container {
+      display: flex;
+      align-items: center;
+
+    }
+  }
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+
+
+}
+
+.bottom-view :global(.ant-card-body) {
+  padding: 0 !important;
+}
